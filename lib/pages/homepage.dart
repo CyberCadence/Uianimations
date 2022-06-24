@@ -15,7 +15,7 @@ class _AnimatedPageState extends State<AnimatedPage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            opacity = 1.0;
+            opacity = opacity==0?1:0;
           });
         },
         child: const Icon(Icons.animation),
