@@ -1,14 +1,8 @@
+import 'package:animations/pages/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const HomePage());
+  runApp(const MaterialApp(home: AnimatedPage()));
 }
+ 
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
